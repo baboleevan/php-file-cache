@@ -2,7 +2,7 @@
 class cache {
 	private $path = '';
 	private $extension = 'cache';
-	private $file_permissions = 0755;
+	// private $file_permissions = 0755;
 	private $folder_permissions = 0755;
 	
 	public function __construct () {
